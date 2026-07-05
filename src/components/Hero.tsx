@@ -13,7 +13,7 @@ export default function Hero() {
       title: 'CODING THE FUTURE',
       headingHighlight: 'ONE LINE AT A TIME',
       description:
-        "I'm a 17-year-old Computer Science student at Everest Secondary School. Having started my coding journey just a few months back, I'm completely hooked on the magic of building interactive web systems and solving logical problems.",
+        "I'm a 17-year-old Computer Science student at Everest Secondary School, and I began my coding journey just a few months ago. Since then, I've been fascinated by creating interactive web applications, solving logical challenges, and continuously expanding my skills as a developer.",
       cta: 'EXPLORE MY PASSIONS',
       sectionId: 'passions',
       icon: Code,
