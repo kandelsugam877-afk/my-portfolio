@@ -77,13 +77,16 @@ export default function Hero() {
                 </span>
               </div>
 
+              {/* Main semantic H1 for SEO */}
+              <h1 className="sr-only">Sugam Kandel | Portfolio - CS Student &amp; Software Developer</h1>
+
               {/* Slide Heading */}
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-extrabold text-white leading-tight uppercase">
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-display font-extrabold text-white leading-tight uppercase">
                 {currentSlide.title} <br />
                 <span className={`bg-gradient-to-r ${activeSlide === 0 ? 'from-cyan-400 to-blue-500' : activeSlide === 1 ? 'from-pink-400 to-rose-500' : 'from-purple-400 to-indigo-500'} bg-clip-text text-transparent`}>
                   {currentSlide.headingHighlight}
                 </span>
-              </h1>
+              </h2>
 
               {/* Slide Description */}
               <p className="text-neutral-300 text-sm md:text-base leading-relaxed max-w-xl font-sans font-light">
